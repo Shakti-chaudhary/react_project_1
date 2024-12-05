@@ -1,0 +1,47 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 90%;
+  background-color: #f4f6f9;
+  padding: 1rem;
+  margin-top: 4rem;
+}
+
+.addTask-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  height: 80%;
+  width: 80%;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.page-title {
+  color: #2563eb;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.section-title {
+  text-align: center;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .page-container {
+    height: fit-content;
+    margin-top: 1rem;
+  }
+  .addTask-main {
+    width: 95%;
+    height: fit-content;
+  }
+}
