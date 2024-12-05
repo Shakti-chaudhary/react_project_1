@@ -34,7 +34,7 @@ const Form: React.FC<FormProps> = ({
             onChange={(e) => {
               setTitle(e.target.value);
             }}
-            placeholder="Task Name"
+            placeholder="Task Title.."
           />
           {titleError && <span className="error-message">{titleError}</span>}
         </div>
@@ -43,7 +43,7 @@ const Form: React.FC<FormProps> = ({
           <textarea
             className={`form-textarea ${descriptionError ? "input-error" : ""}`}
             value={description}
-            placeholder="Task Description"
+            placeholder="Task Description.."
             onChange={(e) => {
               setDescription(e.target.value);
             }}

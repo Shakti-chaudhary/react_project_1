@@ -55,6 +55,7 @@
 
 @media (max-width: 500px) {
   .updateTask-main {
-    width: 95%;
+    width: 97%;
+    padding-inline: 5px;
   }
 }

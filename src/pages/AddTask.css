@@ -41,7 +41,8 @@
     margin-top: 1rem;
   }
   .addTask-main {
-    width: 95%;
+    width: 98%;
     height: fit-content;
+    padding-inline: 5px;
   }
 }
